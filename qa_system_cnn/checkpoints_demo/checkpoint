@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step40000_loss0.00020944_trainAcc0.96_testAcc0.41"
+all_model_checkpoint_paths: "/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step39200_loss0.0_trainAcc1.0_testAcc0.43"
+all_model_checkpoint_paths: "/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step39400_loss0.000420777_trainAcc0.98_testAcc0.41"
+all_model_checkpoint_paths: "/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step39600_loss0.0_trainAcc1.0_testAcc0.41"
+all_model_checkpoint_paths: "/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step39800_loss0.00112413_trainAcc0.98_testAcc0.41"
+all_model_checkpoint_paths: "/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step40000_loss0.00020944_trainAcc0.96_testAcc0.41"
