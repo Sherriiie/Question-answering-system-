@@ -369,19 +369,8 @@ with graph.as_default():
 		model = tf.train.get_checkpoint_state('/home/sherrie/PycharmProjects/cnnDemo/checkpoints_demo/')
 		if model and model.model_checkpoint_path:
 			saver.restore(sess, model.model_checkpoint_path)
-		# saver.restore(sess,
-		#                '/home/sherrie/PycharmProjects/cnnDemo/checkpoints_train/step39200_loss0.0_trainAcc1.0_testAcc0.43')
-		# step = int(model.model_checkpoint_path.split('/')[-1].split('-')[-1])
 		print('\n==============>Model restored,  begin to test ')
 
-
-
-
-
-		# acc=test()
-		# print(
-		# 	'--------The test result among the test data sets: acc = {}, test size = {}, test ratio = {}----------'.format(
-		# 		acc, test_size, ratio))
 
 		ready = raw_input("\n====== Press \"Y Enter\" to test, or press any other key to quit\n")
 		while (ready == "Y" or ready == "y"):
@@ -389,24 +378,4 @@ with graph.as_default():
 			ready = raw_input("\n====== Press \"Y Enter\" to test, or press any other key to quit\n")
 
 
-
-			# correct_num = int(0)
-			# for i in range(1):
-			# 	batch_y1, batch_y2, batch_y3, flag_list = data_processor.loadValData(vocab, filePath, sequence_length,
-			# 	                                                                     ratio)  # batch_size*seq_len
-			# 	# 显示/保存测试数据
-			#
-			#
-			# 	sen_y1 = data_processor.getSentence(batch_y1, vocab)[0]
-			# 	sen_y2 = data_processor.getSentence(batch_y2, vocab)[0]
-			#
-			# 	data_processor.saveData('\nQuestion ' + str(i + 1) + ':\n' + sen_y1)
-			# 	data_processor.saveData('\nPositive Answer:\n' + sen_y2)
-			#
-			# 	correct_flag, test_losses_ = test_step(batch_y1, batch_y2, batch_y3, flag_list, sess)
-			# 	save_data_losses(batch_y1, batch_y2, batch_y3, test_losses_)
-			# 	# print ('corr_flag', correct_flag)
-			# 	correct_num += correct_flag
-			# print ('correct_num', correct_num)
-			# acc = correct_num / float(test_size)
 
