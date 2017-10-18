@@ -1,0 +1,7 @@
+- train_cnn.py: model implement and training 
+- test.text.py: model test with text display
+- test_audio.py: model test with audio input and output
+  You should install the following tools as well:
+    a) pyaudio: a python tool dealing with audio
+    b) Google's speech recognition tool 'speech_recognition'
+    c) Google's text to speech tool 'gtts'
